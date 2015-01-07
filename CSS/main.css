@@ -1,0 +1,70 @@
+html {
+  background: url("../IMG/jellyfish.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body {
+  margin: 0 auto !important;
+  width: 500px;
+  padding: 20px;
+}
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+}
+h1 {
+  font-family: "Courier New";
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  width: 100%;
+}
+#content {
+  height: 430px;
+  width: 800px;
+}
+#content p {
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  font-family: "Courier New";
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+  box-shadow: 5px 5px 5px #888888;
+  overflow: auto;
+  height: 430px;
+  width: 800px;
+}
+#pic {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  margin: auto;
+}
+#pic img {
+  max-height: 150px;
+  max-width: 200px;
+}
+#contact {
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: fixed;
+}
+#contact li {
+  list-style-type: none;
+  display: inline;
+}
+#contact ul {
+  padding-left: 0px;
+  text-decoration: none;
+}
